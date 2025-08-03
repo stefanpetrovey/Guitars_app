@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Guitar Shop App
+An online guitar shop built with Next.js and Apollo Client, using a GraphQL API.
 
-## Getting Started
+### Features
+Browse guitar brands
 
-First, run the development server:
+View models under each brand
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Search & filter guitar models
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Responsive design using Tailwind CSS (or Bootstrap)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+GraphQL API integration using Apollo Client
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Tech Stack
+- Next.js
 
-## Learn More
+- Typescript
 
-To learn more about Next.js, take a look at the following resources:
+- Apollo Client
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- GraphQL API
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Tailwind CSS
 
-## Deploy on Vercel
+### Hierarchy:
+- /app
+- |
+- |---page.tsx
+- |---ClientLayout.tsx
+- |---/brand/[id]/page.tsx
+- |---/model/[id]/page.tsx
+- |---/GraphQL/apollo-client.ts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img width="1919" height="961" alt="Screenshot 2025-08-03 190840" src="https://github.com/user-attachments/assets/7a233d2f-f96f-43e8-8b9f-8a0f3ea19b2a" />
+<img width="1919" height="966" alt="Screenshot 2025-08-03 190918" src="https://github.com/user-attachments/assets/e2e96ed5-7e0d-40cb-9863-460badfc9393" />
+<img width="1919" height="964" alt="Screenshot 2025-08-03 191008" src="https://github.com/user-attachments/assets/bf48b670-3332-4975-b471-cd66033bd67c" />
+<img width="1919" height="979" alt="Screenshot 2025-08-03 191040" src="https://github.com/user-attachments/assets/aa9770fd-6446-400a-9fc9-4b760c138cbc" />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
