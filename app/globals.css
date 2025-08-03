@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.myfooter {
+    background: #EEEEEE;
+}
+
+body{
+    background: white;
+    color: black;
+}
+
+.first-top-left {
+    padding: 100px 60px;
+}
